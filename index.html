@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8" />
+    <meta name="keywords" content="bootstrap 5, premium, multipurpose, sass, agency, software, seo, marketing, business, digital, rtl" />
+    <meta name="description" content="Landing Page Template" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Title -->
+    <title>Sudo - Landing Page Template</title>
+    <!-- favicon icon -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <!--== bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!--== bootstrap-icons -->
+    <link href="css/bootstrap-icons.css" rel="stylesheet" type="text/css" />
+    <!--== animate -->
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
+    <!--== magnific-popup -->
+    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
+    <!--== swiper -->
+    <link href="css/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
+    <!--== odometer -->
+    <link href="css/odometer.css" rel="stylesheet" type="text/css" />
+    <!--== spacing -->
+    <link href="css/spacing.css" rel="stylesheet" type="text/css" />
+    <!--== Sudo-icon -->
+    <link href="css/Sudo-icon.css" rel="stylesheet" type="text/css" />
+    <!--== base -->
+    <link href="css/base.css" rel="stylesheet" type="text/css" />
+    <!--== shortcodes -->
+    <link href="css/shortcodes.css" rel="stylesheet" type="text/css" />
+    <!--== default-theme -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!--== responsive -->
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+    <!--== color-customizer -->
+    <link href="#" data-style="styles" rel="stylesheet" />
+    <link href="css/color-customize/color-customizer.css" rel="stylesheet" type="text/css" />
+    <!-- inject css end -->
+  </head>
+  <body>
+    <!-- page wrapper start -->
+    <div class="page-wrapper">
+      <!-- preloader start -->
+      <div id="ht-preloader">
+        <div class="loader clear-loader">
+          <svg viewBox="0 0 187.3 93.7" class="loaderbox">
+            <defs>
+              <linearGradient y2="0%" x2="100%" y1="0%" x1="0%" id="loader-bg">
+                <stop class="stop-color2" offset="0%"></stop>
+                <stop class="stop-color1" offset="100%"></stop>
+              </linearGradient>
+            </defs>
+            <path
+              stroke="url(#loader-bg)"
+              d="M93.9,46.4c9.3,9.5,13.8,17.9,23.5,17.9s17.5-7.8,17.5-17.5s-7.8-17.6-17.5-17.5c-9.7,0.1-13.3,7.2-22.1,17.1c-8.9,8.8-15.7,17.9-25.4,17.9s-17.5-7.8-17.5-17.5s7.8-17.5,17.5-17.5S86.2,38.6,93.9,46.4z"
+            ></path>
+          </svg>
+        </div>
+      </div>
+      <!-- preloader end -->
+      <!--header start-->
+      <header id="site-header" class="header">
+        <div id="header-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <!-- Navbar -->
+                <nav class="navbar navbar-expand-xl">
+                  <a class="navbar-brand logo" href="index.html">
+                    <img class="img-fluid" src="images/logo.svg" alt="" />
+                  </a>
+                  <button
+                    class="navbar-toggler ht-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <svg width="100" height="100" viewBox="0 0 100 100">
+                      <path
+                        class="line line1"
+                        d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+                      ></path>
+                      <path class="line line2" d="M 20,50 H 80"></path>
+                      <path
+                        class="line line3"
+                        d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+                      ></path>
+                    </svg>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <!-- Left nav -->
+                  </div>
+                  <a class="themeht-btn dark-btn d-none" href="contact.html">Try For Free</a>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--header end-->
+      <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content rounded-4 shadow">
+            <div class="modal-header border-0">
+              <h5 class="modal-title" id="contactModalLabel">Get in Touch</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form id="contactForm">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Full Name</label>
+                  <input type="text" class="form-control" id="name" required />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email Address</label>
+                  <input type="email" class="form-control" id="email" required />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="themeht-btn secondary-btn w-100">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!--hero section start-->
+      <section class="banner banner-1">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 order-lg-1">
+              <div class="banner-img position-relative animate__animated animate__fadeInRight animate__slow">
+                <img class="img-fluid img1" src="images/banner/banner-img-bg.webp" alt="DevOps Consulting Background" />
+                <img class="img-fluid topBottom" src="images/banner/01.png" alt="DevOps Illustration" />
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 mt-10 mt-lg-0">
+              <div class="banner-text">
+                <div class="animate__animated animate__shakeX animate__slow">
+                  <h6>Welcome to Sudo</h6>
+                </div>
+                <h1 class="mb-4 animate__animated animate__shakeX animate__slow">
+                  Unlock the Power of <span>DevOps</span>: Accelerate Your Software Delivery
+                </h1>
+                <div class="mb-5 animate__animated animate__zoomIn animate__slow">
+                  <p>
+                    Expert DevOps consulting and implementation services to streamline your development lifecycle, enhance collaboration, and drive business growth.
+                  </p>
+                </div>
+                <div class="d-sm-flex align-items-center animate__animated animate__fadeInUp animate__slow">
+                  <a class="themeht-btn secondary-btn" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactModal">Get a Free DevOps Consultation</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="banner-shape-bottom">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path
+              fill="#0099ff"
+              fill-opacity="1"
+              d="M0,160L60,176C120,192,240,224,360,240C480,256,600,256,720,234.7C840,213,960,171,1080,160C1200,149,1320,171,1380,181.3L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+            ></path>
+          </svg>
+        </div>
+      </section>
+      
+      <!--hero section end-->
+      <!--body content start-->
+      <div class="page-content">
+        <!--client start-->
+        <section class=" d-none">
+          <div class="container">
+            <div class="row align-items-center border-bottom border-light pb-10">
+              <div class="col-xxl-2 col-md-3">
+                <h5 class="mb-0">Trusted Partner:</h5>
+              </div>
+              <div class="col-xxl-10 col-md-9 mt-3 mt-md-0">
+                <div class="swiper client-swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="clients-logo">
+                        <img class="img-fluid" src="images/client/01.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="clients-logo">
+                        <img class="img-fluid" src="images/client/02.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="clients-logo">
+                        <img class="img-fluid" src="images/client/03.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="clients-logo">
+                        <img class="img-fluid" src="images/client/04.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="clients-logo">
+                        <img class="img-fluid" src="images/client/05.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="clients-logo">
+                        <img class="img-fluid" src="images/client/06.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="clients-logo">
+                        <img class="img-fluid" src="images/client/07.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="clients-logo">
+                        <img class="img-fluid" src="images/client/08.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--client start-->
+        <!--service start-->
+        <section class="pt-10">
+            <div class="container">
+              <div class="row align-items-end mb-8">
+                <div class="col-lg-6 col-md-12">
+                  <div class="theme-title mb-0">
+                    <h6>Our Services</h6>
+                    <h2>DevOps services that fuel your <span>cloud strategy</span></h2>
+                  </div>
+                </div>
+                <div class="col-lg-4 ms-auto col-md-12 mt-3 mt-lg-0">
+                  <p class="mb-0">
+                    We help organizations achieve faster deployments, improved performance, and better collaboration between development and operations teams.
+                  </p>
+                </div>
+              </div>
+              <div class="row gx-4">
+                <div class="col-lg-3 col-md-6">
+                  <div class="service-item style-1">
+                    <div class="service-icon">
+                      <i class="flaticon flaticon-mobile-application"></i>
+                    </div>
+                    <div class="service-desc">
+                      <div class="service-title">
+                        <h4>CI/CD Pipeline</h4>
+                        <p>
+                          We design and implement robust CI/CD pipelines to automate build, test, and deployment workflows — ensuring your releases are faster, more reliable, and always production-ready.
+                        </p> 
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="col-lg-3 col-md-6 mt-6 mt-md-0">
+                  <div class="service-item style-1 service-active">
+                    <div class="service-icon">
+                      <i class="flaticon flaticon-content-marketing"></i>
+                    </div>
+                    <div class="service-desc">
+                      <div class="service-title">
+                        <h4>Infrastructure as Code (IaC)</h4>
+                        <p>
+                          Automate the provisioning of cloud resources using tools like Terraform, AWS CloudFormation, or Pulumi — enabling consistent, versioned, and repeatable infrastructure deployments.
+                        </p>
+                         
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="col-lg-3 col-md-6 mt-6 mt-lg-0">
+                  <div class="service-item style-1">
+                    <div class="service-icon">
+                      <i class="flaticon flaticon-project-management"></i>
+                    </div>
+                    <div class="service-desc">
+                      <div class="service-title">
+                        <h4>Containerization & Orchestration</h4>
+                        <p>
+                          Containerize your applications using Docker and manage them at scale with Kubernetes or Amazon ECS, ensuring portability, scalability, and efficient resource utilization.
+                        </p>
+                         
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="col-lg-3 col-md-6 mt-6 mt-lg-0">
+                  <div class="service-item style-1">
+                    <div class="service-icon">
+                      <i class="flaticon flaticon-digital-marketing"></i>
+                    </div>
+                    <div class="service-desc">
+                      <div class="service-title">
+                        <h4>Monitoring & Logging</a></h4>
+                        <p>
+                          Gain real-time visibility into system performance and health using tools like Prometheus, Grafana, ELK stack, or CloudWatch. We help you proactively detect issues and maintain system reliability.
+                        </p>
+                         
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="animated-icon-shape">
+              <img class="img-fluid small-circle-animation" src="images/small-icon/01.png" alt="" />
+              <img class="img-fluid small-circle-animation" src="images/small-icon/02.png" alt="" />
+              <img class="img-fluid small-circle-animation" src="images/small-icon/03.png" alt="" />
+              <img class="img-fluid small-circle-animation" src="images/small-icon/04.png" alt="" />
+            </div>
+          </section>
+          
+        <!--service end-->
+        <!--marquee start-->
+        <section class="overflow-hidden p-0">
+            <div class="container-fluid p-0">
+              <div class="row">
+                <div class="col">
+                  <div class="marquee-wrap">
+                    <div class="marquee-text">
+                      <span>DevOps</span>
+                      <span>CI/CD</span>
+                      <span>Infrastructure</span>
+                      <span>Kubernetes</span>
+                      <span>Monitoring</span>
+                      <span>Cloud</span>
+                      <span>Automation</span>
+                      <span>IaC</span>
+                      <span>Docker</span>
+                      <span>GitOps</span>
+                      <span>Pipeline</span>
+                      <span>Security</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+        <!--marquee end-->
+        <!--about start-->
+        <section>
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12">
+                  <img class="img-fluid topBottom" src="images/about/02.png" alt="Sudo DevOps Services" />
+                </div>
+                <div class="col-lg-6 col-md-12 mt-6 mt-lg-0 ps-lg-10">
+                  <div class="theme-title mb-4">
+                    <h6>About Us</h6>
+                    <h2>DevOps transformation <span>engineered for scale.</span></h2>
+                    <p>At Sudo, we help businesses accelerate software delivery and enhance reliability through modern DevOps strategies. Our team specializes in end-to-end CI/CD automation, cloud-native infrastructure, and continuous monitoring tailored to your needs.</p>
+                  </div>
+                  <ul class="list-unstyled list-icon style-1 mb-5">
+                    <li><i class="flaticon flaticon-check-1"></i> CI/CD Pipeline Implementation</li>
+                    <li><i class="flaticon flaticon-check-1"></i> Infrastructure as Code (IaC) with Terraform & Ansible</li>
+                    <li><i class="flaticon flaticon-check-1"></i> Kubernetes & Docker Orchestration</li>
+                    <li><i class="flaticon flaticon-check-1"></i> Cloud Architecture (AWS, Azure, GCP)</li>
+                  </ul>
+                  <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactModal" class="themeht-btn primary-btn">More About Us</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+        <!--about end-->
+       <!--feature start-->
+<section class="z-index-1" data-bg-img="images/bg/01.webp">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-md-12 order-lg-1">
+          <img class="img-fluid topBottom" src="images/about/03.png" alt="DevOps Expertise" />
+        </div>
+        <div class="col-lg-6 col-md-12 mt-6 mt-lg-0 ps-lg-10 feature-sec">
+          <div class="featured-item style-3">
+            <div class="featured-icon">
+              <img class="img-fluid" src="images/feature/world-creativity-and-innovation-day.svg" alt="CI/CD Icon" />
+            </div>
+            <div class="featured-desc">
+              <div class="featured-title">
+                <h4>CI/CD Automation</h4>
+              </div>
+              <p>Streamline deployment workflows with robust continuous integration and delivery pipelines.</p>
+            </div>
+          </div>
+          <div class="featured-item style-3 mt-5">
+            <div class="featured-icon">
+              <img class="img-fluid" src="images/feature/consulting.svg" alt="Infrastructure Icon" />
+            </div>
+            <div class="featured-desc">
+              <div class="featured-title">
+                <h4>Infrastructure as Code</h4>
+              </div>
+              <p>Provision and manage cloud infrastructure using Terraform and Ansible with full version control.</p>
+            </div>
+          </div>
+          <div class="featured-item style-3 mt-5">
+            <div class="featured-icon">
+              <img class="img-fluid" src="images/feature/website-coding.svg" alt="Kubernetes Icon" />
+            </div>
+            <div class="featured-desc">
+              <div class="featured-title">
+                <h4>Kubernetes & Containerization</h4>
+              </div>
+              <p>Deploy scalable, fault-tolerant applications using Docker, Kubernetes, and Helm charts.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--feature end-->
+  
+       <!--step start-->
+<section class="step-process-area position-relative">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-xl-6 col-lg-8 col-md-12">
+          <div class="theme-title">
+            <h6>How It Works</h6>
+            <h2>4 Simple Steps to Start Your <span>DevOps Journey</span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="step-item style-2">
+            <div class="step-block">
+              <div class="step-icon primary-bg">
+                <i class="flaticon flaticon-project"></i>
+              </div>
+              <img src="images/step-line.webp" class="img-fluid step-border" />
+            </div>
+            <div class="step-desc">
+              <h4>Assessment & Planning</h4>
+              <p>Understand your tech stack, workflows, and DevOps maturity through deep discovery sessions.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-6 mt-md-0">
+          <div class="step-item style-2">
+            <div class="step-block">
+              <div class="step-icon secondary-bg">
+                <i class="flaticon flaticon-software"></i>
+              </div>
+              <img src="images/step-line.webp" class="img-fluid step-border" />
+            </div>
+            <div class="step-desc">
+              <h4>Toolchain Setup</h4>
+              <p>Implement CI/CD pipelines, GitOps workflows, and container orchestration platforms.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-6 mt-lg-0">
+          <div class="step-item style-2">
+            <div class="step-block">
+              <div class="step-icon primary-bg">
+                <i class="flaticon flaticon-development"></i>
+              </div>
+              <img src="images/step-line.webp" class="img-fluid step-border" />
+            </div>
+            <div class="step-desc">
+              <h4>Monitoring & Testing</h4>
+              <p>Set up observability tools, automated testing, and alert systems to ensure performance and security.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-6 mt-lg-0">
+          <div class="step-item style-2">
+            <div class="step-block">
+              <div class="step-icon secondary-bg">
+                <i class="flaticon flaticon-result"></i>
+              </div>
+            </div>
+            <div class="step-desc">
+              <h4>Continuous Improvement</h4>
+              <p>Enable your team with training, documentation, and agile iteration for long-term DevOps success.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--step end-->
+  
+        <section class="py-8 d-none">
+          <div class="container-fluid p-0">
+            <div class="row">
+              <div class="col">
+                <div class="lg-title-wrap">
+                  <div class="marquee-wrap">
+                    <div class="marquee-text">
+                      <span>Popular Pricing Plan</span>
+                      <span>Popular Pricing Plan</span>
+                      <span>Popular Pricing Plan</span>
+                      <span>Popular Pricing Plan</span>
+                      <span>Popular Pricing Plan</span>
+                      <span>Popular Pricing Plan</span>
+                    </div>
+                  </div>
+                  <div class="image-wrap"><img src="images/marquee-img.webp" class="img-fluid leftRight" /></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--pricing start-->
+        <section class="pb-10 d-none">
+          <div class="container">
+            <div class="row align-items-center gx-lg-5">
+              <div class="col-lg-4 col-md-6">
+                <div class="price-table">
+                  <div class="price-title">
+                    <div class="pricing-item">Free</div>
+                    <div class="price-value">
+                      <h2><sup>$</sup>49.99</h2>
+                      <span>/Billed Monthly</span>
+                    </div>
+                  </div>
+                  <div class="price-content">
+                    <h4>Basic Plan</h4>
+                    <p>Standard Plan grants you access to exclusive features</p>
+                    <div class="price-list">
+                      <ul class="list-unstyled mb-0">
+                        <li><i class="flaticon flaticon-check-1"></i> Mobile Application</li>
+                        <li><i class="flaticon flaticon-check-1"></i> Design & Development</li>
+                        <li><i class="flaticon flaticon-check-1"></i> Project Management</li>
+                        <li><i class="flaticon flaticon-check-1"></i> Software Development</li>
+                      </ul>
+                    </div>
+                    <a class="themeht-btn outline-btn" href="#">Choose Plan</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mt-6 mt-md-0">
+                <div class="price-table price-active">
+                  <div class="price-title">
+                    <div class="pricing-item">Popular</div>
+                    <div class="price-value">
+                      <h2><sup>$</sup>59.99</h2>
+                      <span>/Billed Monthly</span>
+                    </div>
+                  </div>
+                  <div class="price-content">
+                    <h4>Enterprise Plan</h4>
+                    <p>Standard Plan grants you access to exclusive features</p>
+                    <div class="price-list">
+                      <ul class="list-unstyled mb-0">
+                        <li><i class="flaticon flaticon-check-1"></i> Mobile Application</li>
+                        <li><i class="flaticon flaticon-check-1"></i> Design & Development</li>
+                        <li><i class="flaticon flaticon-check-1"></i> Project Management</li>
+                        <li><i class="flaticon flaticon-check-1"></i> Software Development</li>
+                      </ul>
+                    </div>
+                    <a class="themeht-btn primary-btn" href="#">Choose Plan</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mt-6 mt-lg-0">
+                <div class="price-table">
+                  <div class="price-title">
+                    <div class="pricing-item">Best Choice</div>
+                    <div class="price-value">
+                      <h2><sup>$</sup>79.99</h2>
+                      <span>/Billed Monthly</span>
+                    </div>
+                  </div>
+                  <div class="price-content">
+                    <h4>Standard Plan</h4>
+                    <p>Standard Plan grants you access to exclusive features</p>
+                    <div class="price-list">
+                      <ul class="list-unstyled mb-0">
+                        <li><i class="flaticon flaticon-check-1"></i> Mobile Application</li>
+                        <li><i class="flaticon flaticon-check-1"></i> Design & Development</li>
+                        <li><i class="flaticon flaticon-check-1"></i> Project Management</li>
+                        <li><i class="flaticon flaticon-check-1"></i> Software Development</li>
+                      </ul>
+                    </div>
+                    <a class="themeht-btn outline-btn" href="#">Choose Plan</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--pricing end-->
+        <!--testimonial start-->
+        <section class="testimonial-sec-bg position-relative pb-10">
+            <div class="container">
+              <div class="row justify-content-center text-center mb-5">
+                <div class="col-xl-7 col-lg-8 col-md-12">
+                  <div class="theme-title">
+                    <h6>Testimonials</h6>
+                    <h2>Trusted by Global Teams for <span>DevOps Excellence</span></h2>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper testimonial-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="row justify-content-center">
+                      <div class="col-lg-8">
+                        <div class="testimonial style-1">
+                          <div class="testimonial-img">
+                            <img class="img-fluid" src="images/testimonial/01.jpg" alt="Client Photo" />
+                          </div>
+                          <div class="testimonial-content position-relative">
+                            <div class="testimonial-quote">
+                              <img class="img-fluid" src="images/quote1.svg" alt="Quote Icon" />
+                            </div>
+                            <p>
+                              Their DevOps automation drastically improved our deployment pipeline. From CI/CD to monitoring, the team ensured our infrastructure is scalable, secure, and always up.
+                            </p>
+                            <div class="testimonial-caption">
+                              <h5>James Monroe</h5>
+                              <span>CTO, FinTechPro</span>
+                            </div>
+                            <div class="testimonial-rating">
+                              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                            </div>
+                          </div>
+                          <div class="testimonial-quote right">
+                            <img class="img-fluid" src="images/quote2.svg" alt="Quote Icon" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="swiper-slide">
+                    <div class="row justify-content-center">
+                      <div class="col-lg-8">
+                        <div class="testimonial style-1">
+                          <div class="testimonial-img">
+                            <img class="img-fluid" src="images/testimonial/02.jpg" alt="Client Photo" />
+                          </div>
+                          <div class="testimonial-content position-relative">
+                            <div class="testimonial-quote">
+                              <img class="img-fluid" src="images/quote1.svg" alt="Quote Icon" />
+                            </div>
+                            <p>
+                              We transitioned to containerization with their expert Kubernetes setup. It has cut down our infrastructure cost and boosted uptime significantly.
+                            </p>
+                            <div class="testimonial-caption">
+                              <h5>Alicia Zhang</h5>
+                              <span>DevOps Lead, HealthSync</span>
+                            </div>
+                            <div class="testimonial-rating">
+                              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                            </div>
+                          </div>
+                          <div class="testimonial-quote right">
+                            <img class="img-fluid" src="images/quote2.svg" alt="Quote Icon" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="swiper-slide">
+                    <div class="row justify-content-center">
+                      <div class="col-lg-8">
+                        <div class="testimonial style-1">
+                          <div class="testimonial-img">
+                            <img class="img-fluid" src="images/testimonial/03.jpg" alt="Client Photo" />
+                          </div>
+                          <div class="testimonial-content position-relative">
+                            <div class="testimonial-quote">
+                              <img class="img-fluid" src="images/quote1.svg" alt="Quote Icon" />
+                            </div>
+                            <p>
+                              Their monitoring and alerting systems have given us real-time visibility into our systems. We now detect and resolve issues before users are ever affected.
+                            </p>
+                            <div class="testimonial-caption">
+                              <h5>Samuel Lee</h5>
+                              <span>Operations Manager, EduCloud</span>
+                            </div>
+                            <div class="testimonial-rating">
+                              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                            </div>
+                          </div>
+                          <div class="testimonial-quote right">
+                            <img class="img-fluid" src="images/quote2.svg" alt="Quote Icon" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="row">
+                <div class="col-12">
+                  <ul class="testimonial-side-img d-flex justify-content-center ms-0 mb-0 list-unstyled">
+                    <li><img class="img-fluid" src="images/testimonial/01.jpg" alt="Client 1" /></li>
+                    <li><img class="img-fluid" src="images/testimonial/02.jpg" alt="Client 2" /></li>
+                    <li><img class="img-fluid" src="images/testimonial/03.jpg" alt="Client 3" /></li>
+                    <li><img class="img-fluid" src="images/testimonial/04.jpg" alt="Client 4" /></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+        <!--testimonial end-->
+      </div>
+      <!--body content end-->
+      <!--footer start-->
+      <footer class="footer">
+        <div class="primary-footer">
+          <div class="container">
+            <div class="row align-items-center footer-top">
+              <div class="col-lg-6">
+                <h2 class="text-white mb-0">Need help on a project? Get in touch today.</h2>
+              </div>
+              <div class="col-lg-6 text-lg-end mt-4 mt-lg-0">
+                <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactModal" class="themeht-btn primary-btn">Get Started Now</a>
+                <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactModal" class="themeht-btn white-btn ms-3">Contact Now</a>
+              </div>
+            </div>
+            <div class="footer-btm">
+              <div class="row">
+                <div class="col-lg-4 pe-lg-8">
+                  <a class="navbar-brand logo footer-logo mb-4 d-inline-block" href="index.html">
+                    <img class="img-fluid" src="images/logo-white.svg" alt="" />
+                  </a>
+                  <ul class="media-icon list-unstyled">
+                    <li>
+                      <i class="flaticon-home-address"></i>
+                      <p class="mb-0">5th Street, 21st Floor, New York, USA</p>
+                    </li>
+                    <li>
+                      <i class="flaticon-email-1"></i>
+                      <a href="mailto:themeht23@gmail.com">themeht23@gmail.com</a>
+                    </li>
+                    <li>
+                      <i class="flaticon-phone"></i>
+                      <a href="tel:+912345678900">+91-234-567-8900</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-8 mt-5 mt-lg-0">
+                  <div class="row">
+                     
+                    <div class="col-md-6 mt-5 mt-md-0 footer-subscribe">
+                      <h5>Newsletter</h5>
+                      <p>Build responsive, mobile-first projects on the web with the world’s most popular front-end component library.</p>
+                      <form id="mc-form" class="mc-form subscribe-form">
+                        <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="" />
+                        <button type="submit" value="Sign up">
+                          <i class="bi bi-send-fill"></i>
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="secondary-footer">
+                <div class="row">
+                  <div class="col-lg-7 copyright">
+                    Copyright 2025 Sudo
+                   
+                    | All Rights Reserved
+                  </div>
+                  <div class="col-lg-5 text-lg-end mt-4 mt-lg-0">
+                    <ul class="list-inline ps-0 ms-0 mb-0 footer-social social-icons">
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="flaticon-facebook-app-symbol"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="flaticon-twitter"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="flaticon-youtube-1"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="flaticon-instagram"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="animated-icon-shape">
+          <img class="img-fluid small-circle-animation" src="images/small-icon/01.png" alt="" />
+          <img class="img-fluid small-circle-animation" src="images/small-icon/05.png" alt="" />
+          <img class="img-fluid small-circle-animation" src="images/small-icon/06.png" alt="" />
+          <img class="img-fluid small-circle-animation" src="images/small-icon/04.png" alt="" />
+        </div>
+      </footer>
+      <!--footer end-->
+    </div>
+    <!--back-to-top start-->
+    <div class="scroll-top">
+      <svg class="scroll-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+    </div>
+    <!--back-to-top end-->
+    <!--== jquery -->
+    <script src="js/jquery.min.js"></script>
+    <!--== bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--== jquery-appear -->
+    <script src="js/jquery-appear.js"></script>
+    <!--== magnific-popup -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!--== mixitup -->
+    <script src="js/mixitup.min.js"></script>
+    <!--== counter -->
+    <script src="js/odometer.min.js"></script>
+    <!--== countdown -->
+    <script src="js/jquery.countdown.min.js"></script>
+    <!--== particles -->
+    <script src="js/particles.js"></script>
+    <!--== swiper -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!--== swiper-init -->
+    <script src="js/swiper-init.js"></script>
+    <!--== theme-script -->
+    <script src="js/theme-script.js"></script>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+          e.preventDefault();
+          // You can add AJAX here or form validation
+          alert('Your message has been sent!');
+          // Close modal after submission
+          const modal = bootstrap.Modal.getInstance(document.getElementById('contactModal'));
+          modal.hide();
+        });
+      </script>
+      
+  </body>
+</html>
